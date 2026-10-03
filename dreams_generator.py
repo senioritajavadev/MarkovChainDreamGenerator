@@ -246,7 +246,7 @@ def main():
         """
     )
 
-    parser.add_argument('file', help='Файл с описанием снов (по одной строке на анекдот)')
+    parser.add_argument('file', help='Файл с описанием снов (по одной строке на сон)')
     parser.add_argument('--order', '-n', type=int, default=2,
                         help='Порядок цепи Маркова (по умолчанию: 2)')
     parser.add_argument('--count', '-c', type=int, default=5,
